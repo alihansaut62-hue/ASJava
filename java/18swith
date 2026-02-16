@@ -1,0 +1,34 @@
+class Main {
+    public static void main(String[] args) {
+
+
+        String nom = "September";
+
+        switch (nom){
+            case "December":
+            case "January":
+            case "February":
+                System.out.println("zima");
+                break;
+            case "March":
+            case "April":
+            case "May":
+                System.out.println("osen");
+                break;
+            case "June":
+            case "July":
+            case "August":
+                System.out.println("leta");
+                break;
+            case "September":
+            case "October":
+            case "November":
+                System.out.println("vesna");
+                break;
+            default:
+                System.out.println("xz");
+
+        }
+        }
+    }
+
